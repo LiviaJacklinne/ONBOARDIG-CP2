@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.opcao {
+    padding: 40px;
+}
+
+.inicio {
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    height: 536px;
+    background-color: #E8306B;
+}
+
+.bem-vindo {
+    padding-top: 200px;
+    font-size: 64px;
+    color: white;
+}
+
+.quem-somos {
+    display: flex;
+    background: url("../IMG/backgroud-quem-somos.JPG");
+    background-position: center;
+    height: 690px;
+}
+
+.objetivo {
+    background-color: #ffff;
+    height: 840px;
+}
+
+.objetivo img {
+    width: 500px;
+}
+
+.footer {
+    background-color: #FF285C;
+    height: 374px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.saiba-mais {
+    /* display: flex; */
+    height: 470px;   
+}
+
+.lista-mais {
+    display: inline;
+    
+}
+
+.mais-opcao {
+    border: solid 1px red;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+.footer img {
+    width: 247.5px;
+    height: 150px;
+    
+}
+
+.endereco {
+    align-items: center;
+    text-align: center;
+    
+    font-size: 28px;
+    color: #fff;
+}
+
