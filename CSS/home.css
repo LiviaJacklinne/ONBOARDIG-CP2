@@ -4,6 +4,7 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    list-style: none;
 }
 
 .barra-nav {
@@ -12,7 +13,7 @@
     flex-direction: column;
     width: 100%;
     height: 90px;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4ec;
     /* justify-content: center; */
 }
 
@@ -61,14 +62,22 @@
 }
 
 .titulo-quem-somos, .texto-quem-somos {
+    display: flex;
     border: solid 1px red;
     width: 1200px;
     font-size: 40px;
     color: #ffff;
+    /* padding-top: 30px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+    
 }
 
 .texto-quem-somos {
     font-weight: 400;
+    justify-content: end;
+    
 }
 
 .objetivo {
@@ -118,6 +127,18 @@
     
     font-size: 28px;
     color: #fff;
+}
+
+#rua {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.nu-central {
+    font-size: 27px;
+    color: #ffff;
+    /* text-align: center; */
+    letter-spacing: -2px;
 }
 
 .logo img {
