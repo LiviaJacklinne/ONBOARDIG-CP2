@@ -2,20 +2,41 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
-.menu {
+.barra-nav {
     position: fixed;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 85px;
+    height: 90px;
     background-color: #f4f4f4;
+    /* justify-content: center; */
+}
+
+.barra-nav img {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 50px;
+    align-items: center;
+}
+.menu {
     display: flex;
     justify-content: right;
     align-items: center;
+    padding-right: 15px;
 }
 
 .opcao {
     padding: 40px;
+}
+
+.opcao a {
+    font-size: 18px;
+    color: black;
 }
 
 .inicio {
@@ -33,10 +54,21 @@
 }
 
 .quem-somos {
-    display: flex;
     background: url("../IMG/backgroud-quem-somos.JPG");
+    margin: auto;
     background-position: center;
     height: 690px;
+}
+
+.titulo-quem-somos, .texto-quem-somos {
+    border: solid 1px red;
+    width: 1200px;
+    font-size: 40px;
+    color: #ffff;
+}
+
+.texto-quem-somos {
+    font-weight: 400;
 }
 
 .objetivo {
@@ -88,3 +120,10 @@
     color: #fff;
 }
 
+.logo img {
+    height: 30px;
+    width: 30px;
+}
+.logo {
+    margin: 5px;
+}
