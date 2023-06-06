@@ -1,2 +1,2 @@
-# ONBOARDIG-CP2
+# ONBOARDING-CP2
 Onboarding da CP2 (Front)
