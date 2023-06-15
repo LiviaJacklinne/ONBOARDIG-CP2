@@ -1,3 +1,4 @@
+/* Resetando configurações gerais da página */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     list-style: none;
 }
 
+/* Inicio barra de navegação */
 .barra-nav {
     position: fixed;
     display: flex;
@@ -14,10 +16,9 @@
     width: 100%;
     height: 90px;
     background-color: #f4f4f4ec;
-    /* justify-content: center; */
+    justify-content: center;
 }
-
-.barra-nav img {
+.barra-nav img { /* img logo da central */
     width: 100px;
     height: 100px;
     position: fixed;
@@ -28,44 +29,42 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 50px;
 }
-
 .opcao {
     padding: 40px;
 }
-
 .opcao a {
     font-size: 18px;
     color: black;
 }
+/* Fim barra de navegação */
+
+/* Inicio - Seção Bem Vindo */
+.inicio {
+    background-color: #FF285C;
+    display: flex;
+    height: 520px;
+    text-align: center;
+    justify-content: center;
+}
+.titulo-bem-vindo {
+    font-size: 64px;
+    padding-top: 200px;
+    color: #fff;
+    
+}
+/* Fim - Seção Bem Vindo */
 
 
+/* Inicio footer desktop */
 .footer {
+    display: flex;
+    align-items: center;
     background-color: #FF285C;
     height: 374px;
     display: flex;
     justify-content: space-around;
-}
-
-.saiba-mais {
-    /* display: flex; */
-    height: 470px;   
-}
-
-.lista-mais {
-    display: inline;
-    
-}
-
-.mais-opcao {
-    border: solid 1px red;
-    flex-direction: column;
-}
-
-.footer {
-    display: flex;
-    align-items: center;
 }
 .footer img {
     width: 247.5px;
@@ -100,3 +99,4 @@
 .logo {
     margin: 5px;
 }
+/* Fim do footer desktop */
