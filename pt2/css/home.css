@@ -6,3 +6,97 @@
     font-weight: 700;
     list-style: none;
 }
+
+.barra-nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90px;
+    background-color: #f4f4f4ec;
+    /* justify-content: center; */
+}
+
+.barra-nav img {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 50px;
+    align-items: center;
+}
+.menu-nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.opcao {
+    padding: 40px;
+}
+
+.opcao a {
+    font-size: 18px;
+    color: black;
+}
+
+
+.footer {
+    background-color: #FF285C;
+    height: 374px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.saiba-mais {
+    /* display: flex; */
+    height: 470px;   
+}
+
+.lista-mais {
+    display: inline;
+    
+}
+
+.mais-opcao {
+    border: solid 1px red;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+.footer img {
+    width: 247.5px;
+    height: 150px;
+    
+}
+
+.endereco {
+    align-items: center;
+    text-align: center;
+    
+    font-size: 28px;
+    color: #fff;
+}
+
+#rua {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.nu-central {
+    font-size: 27px;
+    color: #ffff;
+    /* text-align: center; */
+    letter-spacing: -2px;
+}
+
+.logo img {
+    height: 30px;
+    width: 30px;
+}
+.logo {
+    margin: 5px;
+}
