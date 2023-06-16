@@ -9,7 +9,7 @@
     color: #fff;
 }
 
-/* Inicio barra de navegação */
+/* Barra de Navegação */
 .barra-nav {
     position: fixed;
     display: flex;
@@ -39,48 +39,51 @@
     font-size: 18px;
     color: black;
 }
-/* Fim barra de navegação */
 
-/* Inicio - Seção Bem Vindo */
+/* Seção Bem Vindo */
 .inicio {
-    background-color: #FF285C;
+    /* background-color: #FF285C; */
+    background-image: url("../img/fundo_home.png");
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
     display: flex;
-    height: 520px;
+    height: 500px;
     text-align: center;
     justify-content: center;
 }
 .titulo-bem-vindo {
     font-size: 64px;
-    padding-top: 200px;
+    padding-top: 165px;
     color: #fff;
-    
 }
-/* Fim - Seção Bem Vindo */
+
 
 .informacoes{
     display: flex;
     flex-direction: column;
 }
 
-/* Inicio Quem Somos */
+/* Quem Somos */
 .quem-somos {
     background-image: url("../img/backgroud-quem-somos.png");
+    z-index: -1;
     background-position: center;
     background-size: cover;
-    margin: auto;
-    height: 500px;
+    margin-top: -150px;
+    height: 600px;
     padding: 120px 90px 0 90px;
 }
 .titulo-quem-somos {
     font-size: 40px;
-    margin: 20px 0 50px 0;
+    margin: 150px 0 50px 0;
 }
 .texto-quem-somos {
     font-size: 30px;
     font-weight: 400;
 }
-/* Fim Quem Somos */
 
+/* Cultura */
 .cultura {
     background-color: #ffff;
     display: flex;
@@ -92,28 +95,36 @@
     width: 50%;
     height: 250px;
     padding: 30px 50px ;
+    box-shadow: 5px 5px 5px 5px rgba(85, 84, 84, 0.212);
 }
 .missao {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 90px;
     margin-right: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .visao {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 30px;
     margin-right: 90px;
-    margin-bottom: 50px;
+    margin-bottom: 85px;
 }
-.missao:hover{background-color: #eeee;}
-.visao:hover {background-color: #eeee;}
-
+.missao:hover{
+    /* background-color: #eeee;
+    box-shadow: 5px 5px 5px 5px #ff285e3f; */
+    background-color: #ff285e3f;
+    box-shadow: 5px 5px 5px 5px #808080;
+}
+.visao:hover {
+    background-color: #ff285e3f;
+    box-shadow: 5px 5px 5px 5px #808080;
+}
 .titulo-missao,
 .titulo-visao {
     color: #000;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 .texto-missao,
 .texto-visao {
@@ -123,36 +134,134 @@
     
 }
 
-/* Inicio footer desktop */
+/* A Quem Pertencemos */
+.a-quem-pertencemos {
+    display: flex;
+    flex-direction: column;
+    /* background-color:  #ff285e3f; */
+}
+.fejemg,
+.brasil-jr {
+    border: 4px solid #FF285C;
+    border-radius: 30px;
+    width: 80%;
+    height: 400px;
+    padding: 30px 50px ;
+    margin: auto;
+    margin-bottom: 80px;
+    box-shadow: 5px 5px 5px 5px rgba(85, 84, 84, 0.212);
+    text-align: center;
+    background-color: white;
+}
+.titulo-fejemg,
+.titulo-brasil-jr {
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.texto-fejemg,
+.texto-brasil-jr {
+    color: #000;
+    font-size: 26px;
+    text-align: center;
+}
+.fejemg a,
+.brasil-jr a {
+    color: #000;
+}
+.container-fejemg,
+.container-brasil-jr {
+    display: flex;
+    /* width: 50; */
+}
+.container-texto-fejemg,
+.container-texto-brasil-jr {
+    width: 70%;
+}
+.container-fejemg img {
+    padding-top: 40px;
+    width: 330px;
+    height: 273px;
+}
+.container-brasil-jr img{
+    padding-top: 50px;
+    width: 300px;
+    height: 243px;
+}
+
+/* Empresas Filiadas */
+.empresas-filiadas {
+    background-color: #eeee;
+}
+.titulo-empresas-juniores {
+    color: #000;
+    background-color: #eeee;
+}
+.container-empresas {
+    display: flex;
+    
+}
+.empresas {
+    margin: auto;  
+   
+}
+.empresas a{
+    /* color: #000; */
+    font-size: 25px;
+}
+
+.nome-ej {
+    /* border: 2px solid #eeee; */
+    border: 2px solid #FF285C;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 40px;
+    text-align: center;
+    background-color: #FF285C;
+}
+.nome-ej:hover {
+    /* background-color: #FF285C; */
+    background-color: #eeee;
+    border: 2px solid #eeee;
+    /* background-color: #ffff;
+    border: 2px solid #ffff; */
+    box-shadow: 5px 5px 5px 5px #808080;
+}
+.nome-ej:hover a {
+    color: #000;
+}
+/* Footer */
 .footer {
     display: flex;
     align-items: center;
     background-color: #FF285C;
-    height: 374px;
+    height: 300px;
     display: flex;
     justify-content: space-around;
 }
 .footer img {
-    width: 247.5px;
-    height: 150px;
+    width: 207.5px;
+    height: 110px;
     
 }
 .endereco {
     align-items: center;
     text-align: center;
-    
-    font-size: 28px;
+    font-size: 25px;
     color: #fff;
+    letter-spacing: -1px;
 }
 #rua {
     font-style: italic;
     font-weight: 400;
+    font-size: 20px;
 }
 .nu-central {
-    font-size: 27px;
+    font-size: 24px;
     color: #ffff;
     /* text-align: center; */
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 .logo img {
     height: 30px;
@@ -161,4 +270,4 @@
 .logo {
     margin: 5px;
 }
-/* Fim do footer desktop */
+
