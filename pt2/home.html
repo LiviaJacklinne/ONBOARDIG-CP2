@@ -23,23 +23,23 @@
 <body>
     <!-- Cabeçalho de navegação do topo da tela -->
     <header class="barra-nav">
-        <img src="img/logo_central_black.png" alt="logo da central">
+        <a href="home.html"><img src="img/logo_central_black.png" alt="logo da central"></a>
         <nav>
             <ul class="menu-nav">
-                <li class="opcao"><a href="home.html">Home</a></li>
-                <li class="opcao"><a href="#">Quem Somos</a></li>
-                <li class="opcao"><a href="#">Empresas Filiadas</a></li>
-                <li class="opcao"><a href="#">Contato</a></li>
+                <li class="opcao"><a href="#inicio">Home</a></li>
+                <li class="opcao"><a href="#informacoes">Quem Somos</a></li>
+                <li class="opcao"><a href="#empresas-filiadas">Empresas Filiadas</a></li>
+                <li class="opcao"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="inicio">
+    <div class="inicio" id="inicio">
         <p class="titulo-bem-vindo">Olá! <br> Seja bem vindo ao Núcleo Central!</p>
     </div>
 
     <!-- Inicio - Quem somos -->
-    <section class="informacoes">
+    <section class="informacoes" id="informacoes">
         <div class="quem-somos">
             <h1 class="titulo-quem-somos">Quem somos?</h1>
             <p class="texto-quem-somos">
@@ -70,10 +70,11 @@
                             <br>
                             Juntos, nós formamos a maior federação de empresas juniores do mundo e não paramos de expandir.
                         </p>
+                        <div class="saiba-mais"><a class="conheca-mais" href="https://www.fejemg.org.br/" target="_blank">Saiba mais</a></div>
                     </div>
                     <img src="img/logo-fejemg.png" alt="Logo da Fejemg">
                 </div>
-                <a class="conheca-mais" href="https://www.fejemg.org.br/" target="_blank">Saiba mais</a>
+                
             </div>
             <div class="brasil-jr">
                 <div class="container-brasil-jr">
@@ -84,10 +85,11 @@
                             alcançamos todos os estados do Brasil e estamos batalhando para levar a vivência empresarial
                             para todos de forma mais acessível e completa.
                         </p>
+                        <div class="saiba-mais"><a class="conheca-mais" href="https://brasiljunior.org.br/" target="_blank">Saiba mais</a></div>
                     </div>
                     <img src="img/logo-brasil-jr.png" alt="Logo da Brasil Júnior">
                 </div>
-                <a class="conheca-mais" href="https://brasiljunior.org.br/" target="_blank">Saiba mais</a>
+                
             </div>
         </div>
         
@@ -95,7 +97,7 @@
     <!-- Fim - Quem somos -->
 
     <!-- Inicio - Empresas Filiadas-->
-    <section class="empresas-filiadas">
+    <section class="empresas-filiadas" id="empresas-filiadas">
         <div class="empresa-junior">
             <h1 class="titulo-empresa-junior">O que é uma empresa junior?</h1>
             <p class="texto-empresa-junior">Uma empresa júnior ou simplesmente EJ é uma organização sem fins lucrativos
@@ -160,9 +162,31 @@
     <!-- Fim - Empresas Filiadas -->
 
     <!-- Inicio - Contato -->
-    <section class="contato">
-        <div class="">
-
+    <section class="contato" id="contato">
+        <div class="container-contato">
+            <p class="texto-entre-em-contato">Entre <br> em <br> contato <br> central@gmail.com</p>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" name="nome" placeholder="Digite seu nome completo">
+                </div>
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="input-box">
+                    <label for="telefone">E-mail</label>
+                    <input id="telefone" type="number" name="telefone" placeholder="Digite seu número">
+                </div>
+                <div class="input-box">
+                    <label for="assunto">E-mail</label>
+                    <input id="assunto" type="text" name="assunto" placeholder="Digite o assunto">
+                </div>
+                <div class="input-box">
+                    <label for="mensagem">E-mail</label>
+                    <input id="mensagem" type="text" name="mensagem" placeholder="Digite sua mensagem">
+                </div>
+            </div>
         </div>
     </section>
 
